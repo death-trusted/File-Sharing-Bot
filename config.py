@@ -5,14 +5,14 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("7828342863:AAGZhaKL4HQHJxfzSR5HN6nmg8YmMlHzolk", "")
+API_ID = int(os.environ.get("25679345", ""))
+API_HASH = os.environ.get("ca7cdec7b4a67970c0bdded248e2ba3c", "")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+OWNER_ID = int(os.environ.get("5818777576", ""))
+DB_URL = os.environ.get("mongodb+srv://roronoazoro:YCZswDgKN8lo5o10@cluster0.mbmsr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
+DB_NAME = os.environ.get("Cluster0", "madflixbotz")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
@@ -44,7 +44,7 @@ except ValueError:
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', "True") == "True" else False
 
